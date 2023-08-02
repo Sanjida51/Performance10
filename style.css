@@ -1,0 +1,53 @@
+#div1{
+    border: 10px dotted black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip:padding-box;
+}
+#div2{
+    border: 20px solid #e21313;
+    background-color: #ff00eb;
+    padding: 10px;
+    background-clip: content-box;
+}
+#div3{
+    border: 20px dashed #45ea13;
+    background-color: #f7f717;
+    padding: 10px;
+    background-clip: border-box;
+}
+#div4{
+    height: 200px;
+    border: 10px dotted #45ea13;
+    background-image: url("image/cactus.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px
+    padding: 20px;
+    background-origin: content-box;
+}
+.c2{
+     height:400px;
+    background-image: url(image/img1.png),url(image/img2.png),url(image/img3.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top left,center top,top right;
+}
+.c3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+}
+p{
+     margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#div7{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+}
+.c1{
+    
+}
